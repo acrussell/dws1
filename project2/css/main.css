@@ -82,3 +82,22 @@ em {
 cite {
     font-style: normal;
 } /* End of Main Styling */
+
+/* Layout */
+/* Centering everything on the body of the document */
+#page {
+    width: 960px;
+    margin: 10px auto;
+    border-radius: 4px 2px;
+    padding: 20px;
+    border: thin solid #7495A8;
+}
+/* Main Nav positioning */
+#main_nav li {
+    display: inline;
+    padding: 10px;
+}
+#main_nav {
+    width: 480px;
+    margin: 10px auto;
+}
