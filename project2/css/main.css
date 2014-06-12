@@ -30,3 +30,20 @@ a:hover {
 a:active {
     color: #FCFAF5;
 }
+/* Setting background color for the page element */
+#page {
+    background-color: rgba(255, 255, 243, .15);
+}
+/* Main navigation bullet styling to none */
+#main_nav ul {
+    list-style-type: none;
+}
+/* Setting a drop shadow on the heading text and aligning it to the center */
+h1 {
+    text-shadow: 2px 1px #CF6161;
+    text-align: center;
+}
+/* Adding spacing above and below text inside of paragraph elements to make them more readable */
+p {
+    line-height: 25px;
+}
