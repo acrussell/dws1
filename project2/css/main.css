@@ -47,3 +47,20 @@ h1 {
 p {
     line-height: 25px;
 }
+/* Setting border properties for the anchor elements inside of the figure element */
+figure a {
+    border: medium solid #F57373;
+    display: inline-block;
+}
+figure a:link {
+    border-color: #F57373;
+}
+figure a:visited{
+    border-color: #B0AEAB
+}
+figure a:hover {
+    border-color: #AB5050;
+}
+figure a:active {
+    border-color: #FCFAF5;
+}
