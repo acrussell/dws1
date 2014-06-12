@@ -64,3 +64,21 @@ figure a:hover {
 figure a:active {
     border-color: #FCFAF5;
 }
+/* Setting the style of the ordered list to uppercase letters */
+ol {
+    list-style-type: upper-alpha;
+}
+/* Aligning the text inside of the element with an id of reference to right */
+#reference {
+    text-align: right;
+}
+/* Setting the styles of the em elements */
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: #A3D6CC;
+}
+/* Setting the style of the font for the cite element to normal */
+cite {
+    font-style: normal;
+} /* End of Main Styling */
