@@ -1,0 +1,17 @@
+/* By: Aric Russell
+DWA1-1406
+project2 */
+
+/* Main Styling */
+/* Styling the body element */
+body {
+    background-color: #40516F;
+    color: #F0EEE9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* Styling headings */
+h1, h2, h3 {
+    font-family: "Ubuntu", Arial, sans-serif;
+    color: #F57373;
+}
