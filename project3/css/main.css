@@ -1,6 +1,7 @@
 /* By: Aric Russell
+06/17/2014
 DWA1-1406
-project2 */
+project3 */
 
 /* Main Styling */
 /* Styling the body element */
@@ -45,10 +46,12 @@ h1 {
     text-shadow: 2px 1px #CF6161;
     text-align: center;
 }
+
 /* Setting the font size to 1.5 times the default font size */
 h2 {
     font-size: 1.5em;
 }
+
 /* Styling h3 headings */
 h3 {
     font-size: 1.25em;
@@ -56,6 +59,7 @@ h3 {
     padding-left: 30px;
     background: url("../images/eight_ball_icon.png") no-repeat left center;
 }
+
 /* Adding spacing above and below text inside of paragraph elements to make them more readable */
 p {
     line-height: 25px;
@@ -77,25 +81,30 @@ figure a:hover {
 figure a:active {
     border-color: #FCFAF5;
 }
+
 /* Setting the style of the ordered list to uppercase letters */
 ol {
     list-style-type: upper-alpha;
 }
+
 /* Aligning the text inside of the element with an id of reference to right */
 #reference {
     text-align: right;
     clear: both;
 }
+
 /* Setting the styles of the em elements */
 em {
     font-style: normal;
     font-weight: bold;
     color: #C0FCF1;
 }
+
 /* Setting the style of the font for the cite element to normal */
 cite {
     font-style: normal;
 }
+
 /* Styling img_gallery div */
 #img_gallery {
     padding: 10px;
@@ -126,11 +135,11 @@ figure, figcaption, #img_gallery h2{
 /* Layout */
 /* Centering everything on the body of the document */
 #page {
-    width: 960px;
+    width: 85%;
     margin: 10px auto;
-    border-radius: 4px 2px;
-    padding: 20px;
-    border: thin solid #7495A8;
+    border-radius: 2px 2px;
+    padding: 5px;
+    border: medium solid #6FC5DE;
     overflow: auto;
 }
 /* Main Nav positioning */
@@ -139,7 +148,7 @@ figure, figcaption, #img_gallery h2{
     padding: 10px;
 }
 #main_nav {
-    width: 480px;
+    width: 460px;
     margin: 10px auto;
 }
 /* Styling the note box */
@@ -147,7 +156,6 @@ figure, figcaption, #img_gallery h2{
     border: medium solid #FA7575;
     padding: 10px;
     box-shadow: 2px 2px #B24B4B;
-    height: 50px;
 }
 /* Setting margins and padding for the figure element */
 figcaption {
@@ -155,7 +163,6 @@ figcaption {
     padding: 10px 0;
 }
 figure {
-    margin: 10px 0;
     padding-top: 10px;
 }
 /* Creating the layout for the first column */
