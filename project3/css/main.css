@@ -84,7 +84,6 @@ ol {
 /* Aligning the text inside of the element with an id of reference to right */
 #reference {
     text-align: right;
-    /* clearing floating elements */
     clear: both;
 }
 /* Setting the styles of the em elements */
