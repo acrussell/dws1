@@ -37,6 +37,7 @@ a:active {
 /* Main navigation bullet styling to none */
 #main_nav ul {
     list-style-type: none;
+    padding-left: 20px;
 }
 /* Setting a drop shadow on the heading text and aligning it to the center */
 h1 {
