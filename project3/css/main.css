@@ -45,6 +45,17 @@ h1 {
     text-shadow: 2px 1px #CF6161;
     text-align: center;
 }
+/* Setting the font size to 1.5 times the default font size */
+h2 {
+    font-size: 1.5em;
+}
+/* Styling h3 headings */
+h3 {
+    font-size: 1.25em;
+    height: auto;
+    padding-left: 30px;
+    background: url("../images/eight_ball_icon.png") no-repeat left center;
+}
 /* Adding spacing above and below text inside of paragraph elements to make them more readable */
 p {
     line-height: 25px;
