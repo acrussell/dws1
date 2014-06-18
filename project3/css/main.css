@@ -132,6 +132,7 @@ figure, figcaption, #img_gallery h2{
     border-radius: 4px 2px;
     padding: 20px;
     border: thin solid #7495A8;
+    overflow: auto;
 }
 /* Main Nav positioning */
 #main_nav li {
@@ -158,4 +159,19 @@ figure {
     margin: 10px 0;
     padding-top: 10px;
 }
+/* Creating the layout for the first column */
+#column1of2 {
+    width: 60%;
+    float: left;
+    padding: 10px;
+    margin: 10px 10px 0 0;
+
+}
+/* Creating the layout for the second column */
+#column2of2 {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    margin: 10px 0 0 25px;
+} /* End of layout */
 /* End of CSS */
