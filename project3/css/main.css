@@ -96,6 +96,32 @@ em {
 /* Setting the style of the font for the cite element to normal */
 cite {
     font-style: normal;
+}
+/* Styling img_gallery div */
+#img_gallery {
+    padding: 10px;
+    border-radius: 2px 2px;
+    border: medium solid #6cc;
+    box-shadow: 2px 2px #57adad;
+    /* Setting default background color in case gradient not recognized by browser */
+    background-color: rgba(92,106,131,0.75);
+    background: linear-gradient(to bottom,  rgba(92,106,131,0.75) 0%,rgba(64,81,111,0.75) 100%); /* W3C */
+    overflow: auto;
+}
+
+/* Centering the contents inside the img_gallery div */
+figure, figcaption, #img_gallery h2{
+    text-align: center;
+}
+#img_gallery p {
+    line-height: normal;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Removing the margin on h2 heading inside img_gallery div */
+#img_gallery h2 {
+    margin: 0;
 } /* End of Main Styling */
 
 /* Layout */
