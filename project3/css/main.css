@@ -5,10 +5,10 @@ project2 */
 /* Main Styling */
 /* Styling the body element */
 body {
-    background-color: #40516F;
     color: #F0EEE9;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
+    background: #40516F url("../images/blue_background.jpg") repeat top left;
 }
 /* Styling headings */
 h1, h2, h3 {
