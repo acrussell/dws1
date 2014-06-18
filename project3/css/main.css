@@ -1,0 +1,120 @@
+/* By: Aric Russell
+DWA1-1406
+project2 */
+
+/* Main Styling */
+/* Styling the body element */
+body {
+    background-color: #40516F;
+    color: #F0EEE9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* Styling headings */
+h1, h2, h3 {
+    font-family: "Ubuntu", Arial, sans-serif;
+    color: #FF8483;
+}
+/* Styling links */
+a:link {
+    text-decoration: none;
+    color: #F57373;
+}
+a:visited {
+    color: #B0AEAB;
+}
+a:hover {
+    text-decoration: underline;
+    color: #AB5050;
+}
+a:active {
+    color: #FCFAF5;
+}
+/* Setting background color for the page element */
+#page {
+    background-color: rgba(255, 255, 243, .15);
+}
+/* Main navigation bullet styling to none */
+#main_nav ul {
+    list-style-type: none;
+}
+/* Setting a drop shadow on the heading text and aligning it to the center */
+h1 {
+    text-shadow: 2px 1px #CF6161;
+    text-align: center;
+}
+/* Adding spacing above and below text inside of paragraph elements to make them more readable */
+p {
+    line-height: 25px;
+}
+/* Setting border properties for the anchor elements inside of the figure element */
+figure a {
+    border: medium solid;
+    display: inline-block;
+}
+figure a:link {
+    border-color: #F57373;
+}
+figure a:visited{
+    border-color: #B0AEAB
+}
+figure a:hover {
+    border-color: #AB5050;
+}
+figure a:active {
+    border-color: #FCFAF5;
+}
+/* Setting the style of the ordered list to uppercase letters */
+ol {
+    list-style-type: upper-alpha;
+}
+/* Aligning the text inside of the element with an id of reference to right */
+#reference {
+    text-align: right;
+}
+/* Setting the styles of the em elements */
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: #C0FCF1;
+}
+/* Setting the style of the font for the cite element to normal */
+cite {
+    font-style: normal;
+} /* End of Main Styling */
+
+/* Layout */
+/* Centering everything on the body of the document */
+#page {
+    width: 960px;
+    margin: 10px auto;
+    border-radius: 4px 2px;
+    padding: 20px;
+    border: thin solid #7495A8;
+}
+/* Main Nav positioning */
+#main_nav li {
+    display: inline;
+    padding: 10px;
+}
+#main_nav {
+    width: 480px;
+    margin: 10px auto;
+}
+/* Styling the note box */
+#note {
+    border: medium solid #FA7575;
+    padding: 10px;
+    box-shadow: 2px 2px #B24B4B;
+    height: 50px;
+}
+/* Setting margins and padding for the figure element */
+figcaption {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+figure {
+    margin: 10px 0;
+    padding-top: 10px;
+}
+/* End of CSS */
