@@ -39,8 +39,9 @@ a:active {
     list-style-type: none;
     padding-left: 20px;
 }
-/* Setting a drop shadow on the heading text and aligning it to the center */
+/* Setting a drop shadow on the h1 heading text and aligning it to the center */
 h1 {
+    font-size: 1.75em;
     text-shadow: 2px 1px #CF6161;
     text-align: center;
 }
