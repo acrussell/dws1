@@ -1,0 +1,183 @@
+/* By: Aric Russell
+06/24/2014
+DWA1-1406
+project4 */
+
+/* Main Styling */
+/* Styling the body element */
+body {
+    color: #F0EEE9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background: #40516F url("../images/blue_background.jpg") repeat top left;
+}
+/* Styling headings */
+h1, h2, h3 {
+    font-family: "Ubuntu", Arial, sans-serif;
+    color: #FF8483;
+}
+/* Styling links */
+a:link {
+    text-decoration: none;
+    color: #F57373;
+}
+a:visited {
+    color: #B0AEAB;
+}
+a:hover {
+    text-decoration: underline;
+    color: #AB5050;
+}
+a:active {
+    color: #FCFAF5;
+}
+/* Setting background color for the page element */
+#page {
+    background-color: rgba(92, 106, 131, .95);
+}
+/* Main navigation bullet styling to none */
+#main_nav ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+/* Setting a drop shadow on the h1 heading text and aligning it to the center */
+h1 {
+    font-size: 1.75em;
+    text-shadow: 2px 1px #CF6161;
+    text-align: center;
+}
+
+/* Setting the font size to 1.5 times the default font size */
+h2 {
+    font-size: 1.5em;
+}
+
+/* Styling h3 headings */
+h3 {
+    font-size: 1.25em;
+    height: auto;
+    padding-left: 30px;
+    background: url("../images/eight_ball_icon.png") no-repeat left center;
+}
+
+/* Adding spacing above and below text inside of paragraph elements to make them more readable */
+p {
+    line-height: 25px;
+}
+/* Setting border properties for the anchor elements inside of the figure element */
+figure a {
+    border: medium solid;
+    display: inline-block;
+}
+figure a:link {
+    border-color: #F57373;
+}
+figure a:visited{
+    border-color: #B0AEAB
+}
+figure a:hover {
+    border-color: #AB5050;
+}
+figure a:active {
+    border-color: #FCFAF5;
+}
+
+/* Setting the style of the ordered list to uppercase letters */
+ol {
+    list-style-type: upper-alpha;
+}
+
+/* Aligning the text inside of the element with an id of reference to right */
+#reference {
+    text-align: right;
+    clear: both;
+}
+
+/* Setting the styles of the em elements */
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: #C0FCF1;
+}
+
+/* Setting the style of the font for the cite element to normal */
+cite {
+    font-style: normal;
+}
+
+/* Styling img_gallery div */
+#img_gallery {
+    padding: 10px;
+    border-radius: 2px 2px;
+    border: medium solid #6cc;
+    box-shadow: 2px 2px #57adad;
+    /* Setting default background color in case gradient not recognized by browser */
+    background-color: rgba(92,106,131,0.75);
+    background: linear-gradient(to bottom,  rgba(92,106,131,0.75) 0%,rgba(64,81,111,0.75) 100%); /* W3C */
+    overflow: hidden;
+}
+
+/* Centering the contents inside the img_gallery div */
+figure, figcaption, #img_gallery h2{
+    text-align: center;
+}
+#img_gallery p {
+    line-height: normal;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Removing the margin on h2 heading inside img_gallery div */
+#img_gallery h2 {
+    margin: 0;
+} /* End of Main Styling */
+
+/* Layout */
+/* Centering everything on the body of the document */
+#page {
+    width: 85%;
+    margin: 10px auto;
+    border-radius: 2px 2px;
+    padding: 5px;
+    border: medium solid #6FC5DE;
+    overflow: auto;
+}
+/* Main Nav positioning */
+#main_nav li {
+    display: inline;
+    padding: 10px;
+}
+#main_nav {
+    width: 460px;
+    margin: 10px auto;
+}
+/* Styling the note box */
+#note {
+    border: medium solid #FA7575;
+    padding: 10px;
+    box-shadow: 2px 2px #B24B4B;
+}
+/* Setting margins and padding for the figure element */
+figcaption {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+figure {
+    padding-top: 10px;
+}
+/* Creating the layout for the first column */
+#column1of2 {
+    width: 60%;
+    float: left;
+    padding: 10px;
+    margin: 10px 10px 0 0;
+
+}
+/* Creating the layout for the second column */
+#column2of2 {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    margin: 10px 0 0 25px;
+} /* End of layout */
+/* End of CSS */
