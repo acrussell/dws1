@@ -30,13 +30,13 @@ a:hover {
 }
 a:active {
     color: #FCFAF5;
-}
+} /* End of link styling */
 /* Setting background color for the page element */
 #page {
     background-color: rgba(92, 106, 131, .95);
 }
 /* Main navigation bullet styling to none */
-#main_nav ul {
+nav ul {
     list-style-type: none;
     padding-left: 20px;
 }
@@ -46,12 +46,10 @@ h1 {
     text-shadow: 2px 1px #CF6161;
     text-align: center;
 }
-
 /* Setting the font size to 1.5 times the default font size */
 h2 {
     font-size: 1.5em;
 }
-
 /* Styling h3 headings */
 h3 {
     font-size: 1.25em;
@@ -80,33 +78,28 @@ figure a:hover {
 }
 figure a:active {
     border-color: #FCFAF5;
-}
-
+} /* End of figure element styling */
 /* Setting the style of the ordered list to uppercase letters */
 ol {
     list-style-type: upper-alpha;
 }
-
 /* Aligning the text inside of the element with an id of reference to right */
-#reference {
+footer {
     text-align: right;
     clear: both;
 }
-
 /* Setting the styles of the em elements */
 em {
     font-style: normal;
     font-weight: bold;
     color: #C0FCF1;
 }
-
 /* Setting the style of the font for the cite element to normal */
 cite {
     font-style: normal;
 }
-
-/* Styling img_gallery div */
-#img_gallery {
+/* Styling aside element */
+aside {
     padding: 10px;
     border-radius: 2px 2px;
     border: medium solid #6cc;
@@ -116,21 +109,45 @@ cite {
     background: linear-gradient(to bottom,  rgba(92,106,131,0.75) 0%,rgba(64,81,111,0.75) 100%); /* W3C */
     overflow: hidden;
 }
-
-/* Centering the contents inside the img_gallery div */
+/* Centering the contents inside the img_gallery aside */
 figure, figcaption, #img_gallery h2{
     text-align: center;
 }
-#img_gallery p {
+aside p {
     line-height: normal;
     margin: 0 auto;
     text-align: center;
 }
-
-/* Removing the margin on h2 heading inside img_gallery div */
-#img_gallery h2 {
+/* Removing the margin on h2 heading inside aside element */
+aside h2 {
     margin: 0;
-} /* End of Main Styling */
+}
+/* Styling table elements */
+table {
+    text-align: right;
+    font-size: .90em;
+    letter-spacing: 1px;
+    background-color: rgba(92,106,131,0.75);
+}
+tr, td {
+    border: 2px solid #57adad;
+
+}
+th {
+    border: 2px solid #6cc;
+    font-size: 1em;
+    text-align: center;
+    font-style: normal;
+    color: #FF8483;
+    text-shadow: 1px 1px #B24B4B;
+}
+.game {
+    text-align: left;
+}
+tr:hover {
+    background-color: rgba(64,81,111,0.75);
+}  /* End of table styling */
+/* End of main styling */
 
 /* Layout */
 /* Centering everything on the body of the document */
