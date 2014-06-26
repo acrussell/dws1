@@ -208,11 +208,11 @@ input:hover {
     overflow: auto;
 }
 /* Main Nav positioning */
-#main_nav li {
+nav li {
     display: inline;
     padding: 10px;
 }
-#main_nav {
+nav {
     width: 460px;
     margin: 10px auto;
 }
@@ -230,19 +230,75 @@ figcaption {
 figure {
     padding-top: 10px;
 }
-/* Creating the layout for the first column */
-#column1of2 {
+/* Creating the layout for the article element */
+article {
     width: 60%;
     float: left;
     padding: 10px;
     margin: 10px 10px 0 0;
 
 }
-/* Creating the layout for the second column */
-#column2of2 {
+/* Creating the layout for the aside element */
+aside {
     width: 30%;
     float: left;
     padding: 10px;
     margin: 10px 0 0 25px;
-} /* End of layout */
+}
+/* Start of table layout */
+table {
+    width: 750px;
+    border-collapse: collapse;
+    padding: 2px;
+    margin-top: 15px;
+}
+th {
+    padding: 5px;
+}
+td, th {
+    width: 140px;
+    padding: 4px;
+} /* End of table layout */
+/* Start of form element layout */
+form {
+    width: 541px;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+legend {
+    padding: 5px 10px 5px 10px;
+}
+.title, #rate span.title {
+    float: left;
+    text-align: right;
+    padding-right: 15px;
+    width: 210px;
+}
+#rate input, #rate .title {
+    clear: both;
+    float: none;
+    width: auto;
+}
+input {
+    margin-bottom: 10px;
+    width: 140px;
+    padding: 5px;
+}
+form p {
+    margin: 10px 0 10px 0;
+}
+textarea {
+    height: 60px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+#submit {
+    clear: both;
+    width: 125px;
+    padding: 5px;
+    float: right;
+    margin: 10px 28px 30px 0;
+}  /* End of form layout */
+/* End of layout */
 /* End of CSS */
