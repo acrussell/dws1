@@ -145,6 +145,41 @@
     </aside> <!-- End of aside -->
     <!-- Start of footer -->
     <footer>
+        <!-- Start of form -->
+        <form action="http://www.example.com/form.php" method="post">
+            <fieldset>
+                <legend>Contact Us:</legend>
+                <p>
+                    <label for="name" class="title">What is your name?</label>
+                    <input type="text" name="name" id="name" value="Jane Doe" required="required" /><br />
+                    <label for="email" class="title">What is your email address?</label>
+                    <input type="email" name="email" id="email" value="email@example.com" required="required" />
+                </p>
+                <p id="rate">
+                    <span class="title">Please rate this page:</span>
+                    <input type="radio" name="rating" id="poor" value="poor" />
+                    <label for="poor" class="title">Poor</label>
+                    <input type="radio" name="rating" id="average" value="average" />
+                    <label for="average" class="title">Average</label>
+                    <input type="radio" name="rating" id="amazing" value="amazing" checked="checked" />
+                    <label for="amazing" class="title">Amazing</label>
+                </p>
+                <p>
+                    <label for="hear-about" class="title">How did you hear about us?</label>
+                    <select name="hear-about" id="hear-about">
+                        <option selected="selected">Select one</option>
+                        <option>Facebook</option>
+                        <option>Google</option>
+                        <option>Referred by friend</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comments" class="title">Any additional comments?</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </p>
+                <input type="submit" name="submit" id="submit" value="Send" />
+            </fieldset>
+        </form> <!-- End of form -->
         <!-- Resource link -->
         <p><em>Resource: </em><cite><a href="http://en.wikipedia.org/wiki/Pool_%28cue_sports%29">Wikipedia.org</a></cite></p>
     </footer> <!-- End of footer -->
