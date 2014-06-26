@@ -147,7 +147,55 @@ th {
 tr:hover {
     background-color: rgba(64,81,111,0.75);
 }  /* End of table styling */
-/* End of main styling */
+/* Aligning all text inside form element left */
+form {
+    text-align: left;
+}
+/* Styling fieldset element */
+fieldset {
+    background-color: rgba(92,106,131,0.75);
+    border-radius: 2px 2px;
+    border: 2px solid #6cc;
+    box-shadow: 2px 2px #57adad;
+}
+/* Styling legend element */
+legend {
+    font-family: "Ubuntu", Arial, sans-serif;
+    color: #FF8483;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid #6cc;
+    border-radius: 2px 2px;
+    background-color: #5B697A;
+
+}
+/* Styling input fields */
+input {
+    border-bottom: 2px solid #ffece3;
+    border-right: 2px solid #ffece3;
+    color: #B0AEAB;
+}
+input:focus {
+    border-bottom: none;
+    border-top: 2px solid #ffece3;
+}
+input:hover {
+    background-color: #AAF3FF;
+}
+/* Styling submit button */
+#submit {
+    background: rgb(255,132,131); /* Old browsers */
+    background: linear-gradient(to bottom, rgba(255,132,131,1) 0%, rgba(178,75,75,1) 100%); /* W3C */
+    color: #F0EEE9;
+    text-shadow: 1px 1px #a3a19e;
+    font-size: 1em;
+    border: none;
+}
+#submit:hover {
+    background: rgb(178,75,75); /* Old browsers */
+    background: linear-gradient(to bottom,  rgba(178,75,75,1) 0%,rgba(255,132,131,1) 100%); /* W3C */
+}
+/* End of Main Styling */
 
 /* Layout */
 /* Centering everything on the body of the document */
